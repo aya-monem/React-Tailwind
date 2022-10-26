@@ -1,0 +1,112 @@
+ [
+    {
+        "id": 1,
+        "name": "Toyota 718 Cayman S",
+        "imgUrl": "https://elitecarserviceandairport.com/wp-content/uploads/2020/11/subbur.jpg",
+        "isFavourite": true,
+        "lovedPeopleNo": 4,
+        "price": 400,
+        "currency": "d",
+        "model": "Toyota",
+        "automatic": true
+    },
+    {
+        "id": 2,
+        "name": "Mazda 718 Cayman S",
+        "imgUrl": "https://elitecarserviceandairport.com/wp-content/uploads/2020/11/subbur.jpg",
+        "isFavourite": false,
+        "lovedPeopleNo": 4,
+        "price": 400,
+        "currency": "d",
+        "model": "Mazda",
+        "automatic": false
+    },
+    {
+        "id": 3,
+        "name": "Toyota 718 Cayman S",
+        "imgUrl": "https://elitecarserviceandairport.com/wp-content/uploads/2020/11/subbur.jpg",
+        "isFavourite": true,
+        "lovedPeopleNo": 4,
+        "price": 400,
+        "currency": "d",
+        "model": "Toyota",
+        "automatic": true
+    },
+    {
+        "id": 4,
+        "name": "Mazda 718 Cayman S",
+        "imgUrl": "https://elitecarserviceandairport.com/wp-content/uploads/2020/11/subbur.jpg",
+        "isFavourite": false,
+        "lovedPeopleNo": 4,
+        "price": 400,
+        "currency": "d",
+        "model": "Mazda",
+        "automatic": false
+    },
+    {
+        "id": 5,
+        "name": "Toyota 718 Cayman S",
+        "imgUrl": "https://elitecarserviceandairport.com/wp-content/uploads/2020/11/subbur.jpg",
+        "isFavourite": true,
+        "lovedPeopleNo": 4,
+        "price": 400,
+        "currency": "d",
+        "model": "Toyota",
+        "automatic": true
+    },
+    {
+        "id": 6,
+        "name": "Mazda 718 Cayman S",
+        "imgUrl": "https://elitecarserviceandairport.com/wp-content/uploads/2020/11/subbur.jpg",
+        "isFavourite": false,
+        "lovedPeopleNo": 4,
+        "price": 400,
+        "currency": "d",
+        "model": "Mazda",
+        "automatic": false
+    },
+    {
+        "id": 7,
+        "name": "Toyota 718 Cayman S",
+        "imgUrl": "https://elitecarserviceandairport.com/wp-content/uploads/2020/11/subbur.jpg",
+        "isFavourite": true,
+        "lovedPeopleNo": 4,
+        "price": 400,
+        "currency": "d",
+        "model": "Toyota",
+        "automatic": true
+    },
+    {
+        "id": 8,
+        "name": "Mazda 718 Cayman S",
+        "imgUrl": "https://elitecarserviceandairport.com/wp-content/uploads/2020/11/subbur.jpg",
+        "isFavourite": false,
+        "lovedPeopleNo": 4,
+        "price": 400,
+        "currency": "d",
+        "model": "Mazda",
+        "automatic": false
+    },
+    {
+        "id": 9,
+        "name": "Toyota 718 Cayman S",
+        "imgUrl": "https://elitecarserviceandairport.com/wp-content/uploads/2020/11/subbur.jpg",
+        "isFavourite": true,
+        "lovedPeopleNo": 4,
+        "price": 400,
+        "currency": "d",
+        "model": "Toyota",
+        "automatic": true
+    },
+    {
+        "id": 10,
+        "name": "Mazda 718 Cayman S",
+        "imgUrl": "https://elitecarserviceandairport.com/wp-content/uploads/2020/11/subbur.jpg",
+        "isFavourite": false,
+        "lovedPeopleNo": 4,
+        "price": 400,
+        "currency": "d",
+        "model": "Mazda",
+        "automatic": false
+    }
+]
