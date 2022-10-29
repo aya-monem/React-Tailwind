@@ -13,7 +13,7 @@ const CarCard = ({car}) => {
              </p>
              <p className="text-gray-400 font-semibold">{car.model}</p>
             <div className="flex justify-center">
-                <img src={car.imgUrl} alt={`${car.id} alt`} height='120' width='240'/>   
+                <img src={car.imgUrl} alt={`${car.id} alt`} />   
             </div>
             <div className="flex justify-between">
                 <div className="flex">
@@ -22,7 +22,7 @@ const CarCard = ({car}) => {
                         <span className="text-gray-400 font-semibold"> {car.lovedPeopleNo}</span>
                     </p>
                     <p className="flex">
-                        <img src={require('../assets/images/manual.svg').default} className="mx-2"/>
+                        <img src={require('../assets/images/manual.svg').default} className="mx-2" alt="manual"/>
                         <span className="text-gray-400 font-semibold">{car.lovedPeopleNo}</span>
                     </p>
                 </div>

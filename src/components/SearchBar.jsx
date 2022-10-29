@@ -17,11 +17,10 @@ const SearchBar = () => {
             <div className="mr-5 flex items-center">
                 <div className="mr-12">
                     <VscBellDot className="w-6 h-6 text-gray-600"/>
-                    {/* <img src={require('../assets/images/bell.svg').default} alt="bell-svg"  /> */}
                 </div>
                 <div >
                     <img src={require('../assets/images/young-man.png')} height='40' width='40' 
-                          alt="log-img" className="rounded-full"/>
+                          alt="login-man" className="rounded-full"/>
                 </div>
             </div>  
         </div>

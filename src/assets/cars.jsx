@@ -1,8 +1,12 @@
-[
+const audiCar = require('../assets/images/car-audi.svg').default
+const mercedesCar = require('../assets/images/car-mercedes.svg').default
+const whiteCar = require('../assets/images/white-car.svg').default
+
+export const dummyCarsData =  [
     {
         "id": 1,
         "name": "Porshe 718 Cayman S",
-        "imgUrl": "https://elitecarserviceandairport.com/wp-content/uploads/2020/11/subbur.jpg",
+        "imgUrl": audiCar,
         "isFavourite": true,
         "lovedPeopleNo": 4,
         "price": 400,
@@ -14,7 +18,7 @@
     {
         "id": 2,
         "name": "Porshe 718 Cayman S",
-        "imgUrl": "https://elitecarserviceandairport.com/wp-content/uploads/2020/11/subbur.jpg",
+        "imgUrl": mercedesCar,
         "isFavourite": false,
         "lovedPeopleNo": 4,
         "price": 400,
@@ -26,7 +30,7 @@
     {
         "id": 3,
         "name": "Porshe 718 Cayman S",
-        "imgUrl": "https://elitecarserviceandairport.com/wp-content/uploads/2020/11/subbur.jpg",
+        "imgUrl": whiteCar,
         "isFavourite": true,
         "lovedPeopleNo": 4,
         "price": 400,
@@ -38,7 +42,7 @@
     {
         "id": 4,
         "name": "Porshe 718 Cayman S",
-        "imgUrl": "https://elitecarserviceandairport.com/wp-content/uploads/2020/11/subbur.jpg",
+        "imgUrl": mercedesCar,
         "isFavourite": false,
         "lovedPeopleNo": 4,
         "price": 400,
@@ -50,7 +54,7 @@
     {
         "id": 5,
         "name": "Porshe 718 Cayman S",
-        "imgUrl": "https://elitecarserviceandairport.com/wp-content/uploads/2020/11/subbur.jpg",
+        "imgUrl": whiteCar,
         "isFavourite": true,
         "lovedPeopleNo": 4,
         "price": 400,
@@ -62,7 +66,7 @@
     {
         "id": 6,
         "name": "Porshe 718 Cayman S",
-        "imgUrl": "https://elitecarserviceandairport.com/wp-content/uploads/2020/11/subbur.jpg",
+        "imgUrl": audiCar,
         "isFavourite": false,
         "lovedPeopleNo": 4,
         "price": 400,
@@ -74,7 +78,7 @@
     {
         "id": 7,
         "name": "Porshe 718 Cayman S",
-        "imgUrl": "https://elitecarserviceandairport.com/wp-content/uploads/2020/11/subbur.jpg",
+        "imgUrl": audiCar,
         "isFavourite": true,
         "lovedPeopleNo": 4,
         "price": 400,
@@ -86,7 +90,7 @@
     {
         "id": 8,
         "name": "Porshe 718 Cayman S",
-        "imgUrl": "https://elitecarserviceandairport.com/wp-content/uploads/2020/11/subbur.jpg",
+        "imgUrl": whiteCar,
         "isFavourite": false,
         "lovedPeopleNo": 4,
         "price": 400,
@@ -98,7 +102,7 @@
     {
         "id": 9,
         "name": "Porshe 718 Cayman S",
-        "imgUrl": "https://elitecarserviceandairport.com/wp-content/uploads/2020/11/subbur.jpg",
+        "imgUrl": mercedesCar,
         "isFavourite": true,
         "lovedPeopleNo": 4,
         "price": 400,
@@ -110,7 +114,7 @@
     {
         "id": 10,
         "name": "Porshe 718 Cayman S",
-        "imgUrl": "https://elitecarserviceandairport.com/wp-content/uploads/2020/11/subbur.jpg",
+        "imgUrl": mercedesCar,
         "isFavourite": false,
         "lovedPeopleNo": 4,
         "price": 400,

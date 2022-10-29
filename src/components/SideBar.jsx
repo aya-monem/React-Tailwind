@@ -7,20 +7,19 @@ import {BiLogOut} from 'react-icons/bi';
 const SideBar = () => {
     const [isLogged , setIsLogged] = useState(localStorage.getItem('isLogged'))
     const handleLogInState = () =>{
-        debugger
         setIsLogged(prevIsLogged => !prevIsLogged)
         localStorage.setItem('isLogged', isLogged);
     }
     return(
-        <div className='w-1/5 p-6 pt-7 h-full'>
+        <div className='w-1/6 p-6 pt-7 h-screen'>
             <div className='logo mb-8'>
                    <img src={require('../assets/images/logo.png')} alt="logo"/>
             </div>
-            <div className='flex-col items-center'>
+            <div className='flex flex-col justify-between h-full'>
                 <ul>
                     <li className="mb-2">
                         <Link to='/' className="flex active:bg-slate-300 "> 
-                        <img src={require('../assets/images/dashboard_icon.svg').default} className="mx-2"/>
+                        <img src={require('../assets/images/dashboard_icon.svg').default} className="mx-2" alt="dashboard"/>
                         Dashboard </Link>
                     </li>
                     <li className="mb-2">
@@ -29,7 +28,7 @@ const SideBar = () => {
                         </Link>
                     </li>
                 </ul>
-                <ul className='content-end'>
+                <ul className=''>
                     <li className="mb-2">
                         <Link to='/settings' className="flex active:bg-slate-300"> 
                             <IoSettingsOutline className="w-5 h-5 mx-2 text-gray-600"/> Settings 

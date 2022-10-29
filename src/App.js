@@ -12,17 +12,17 @@ const LazySettings = React.lazy(() => import('./components/Settings')) ;
 const LazyLogIn = React.lazy(() => import('./components/LogIn')) ;
 
 const App = () => {
-  const isLogged = localStorage.getItem('isLogged');
-  
+  //const isLogged = localStorage.getItem('isLogged');
+  const isLogged = true
   return (
     <Router>
       <div className='flex'>
         {isLogged ? 
         <>
           <SideBar />
-          <div className="rightCol w-4/5 border-l-2 border-l-slate-200">
+          <div className="rightCol h-fit w-5/6 border-l-2 border-l-slate-200 ">
             <SearchBar />
-            <div className="content bg-slate-100 p-7">
+            <main className="content bg-slate-100 p-7 h-full">
               <Routes>
                 <Route path="/" fallback='...loading'
                       element={
@@ -50,7 +50,7 @@ const App = () => {
                         <LazyLogIn isLogged={isLogged}/>
                       </React.Suspense>} />      
               </Routes>
-            </div>
+            </main>
           </div>
           
         </>

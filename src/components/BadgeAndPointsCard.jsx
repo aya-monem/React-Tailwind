@@ -1,9 +1,8 @@
 import React from "react";
 
 const BadgeAndPointsCard = ({obj ,classname, type}) => {
-    let classes = `${classname} text-white basis-1/3 p-5`
     return(
-        <div className={classes}>
+        <div className={`${classname} text-white basis-1/3 p-5 rounded-md`}>
             <div className="flex">
                 <div>
                     <h3 className="font-bold text-2xl">You have earned</h3>
@@ -11,9 +10,9 @@ const BadgeAndPointsCard = ({obj ,classname, type}) => {
                     <h3 className="font-bold text-2xl">{ type}</h3>
                 </div>
                 
-                <img src={obj.img} className="text-white"/>
+                <img src={obj.img} className="text-white" alt={`${type} alt`}/>
             </div>
-            <p className="text-sm text-orange-800">{obj.msg}</p>
+            <p className="text-sm text-orange-700">{obj.msg}</p>
         </div>
     )
 }
